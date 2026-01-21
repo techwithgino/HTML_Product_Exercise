@@ -18,17 +18,57 @@ body  {
   background-size: cover;
   background-position: center;
 }
+
+.advertisement {
+  position: fixed;
+  right: 10px;        /* move to left side if you want: left: 10px */
+  top: 50%;
+  transform: translateY(-50%);
+  width: 160px;
+}
+
+.advertisement img {
+  width: 100%;
+  height: auto;
+}
+.ad-left {
+  position: fixed;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 180px;     /* adjust if needed */
+  z-index: 9999;
+}
+
+.ad-left img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 </style>
 
 <body>
+
+<div class="advertisement">
+  <img src="img5.jpg" alt="Advertisement">
+</div>
+
+<div class="ad-left">
+  <img src="img6.jpg" alt="Left Advertisement">
+</div>
+
+
 	<br>
 <tr>
 <div align="center"><font style="font-size:40px;"><b>Product</b></font><b><div>
 </tr>
 
+
 <div align="center">
 <table width="500" border="0" cellspacing="5" cellpadding="1">
 <tbody>
+
 <tr>
 		<td><img src="img1.jpg" height="260" style="mix-blend-mode: multiply;"></td>
 	<br>
