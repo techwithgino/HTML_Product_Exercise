@@ -1,0 +1,135 @@
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Gino_Canoy_Product</title>
+</head>
+<style>
+body  {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("Tech4_bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.advertisement {
+  position: fixed;
+  right: 10px;        /* move to left side if you want: left: 10px */
+  top: 50%;
+  transform: translateY(-50%);
+  width: 160px;
+}
+
+.advertisement img {
+  width: 100%;
+  height: auto;
+}
+.ad-left {
+  position: fixed;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 180px;     /* adjust if needed */
+  z-index: 9999;
+}
+
+.ad-left img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+</style>
+
+<body>
+
+<div class="advertisement">
+  <img src="img5.JPG" alt="Advertisement">
+</div>
+
+<div class="ad-left">
+  <img src="img6.JPG" alt="Left Advertisement">
+</div>
+
+
+	<br>
+<div align="center" style="font-size:40px; font-weight:bold;">
+  Product
+</div>
+
+
+<div align="center">
+<table width="500" border="0" cellspacing="5" cellpadding="1">
+<tbody>
+
+<tr>
+		<td><img src="img1.jpg" height="260" style="mix-blend-mode: multiply;"></td>
+	<br>
+		<td><img src="img2.jpg" height="260" style="mix-blend-mode: multiply;"></td>
+	<br>
+</tr>
+  <tr>
+    <td colspan="2" style="height:5px;"></td>
+  </tr>
+
+<tr>
+<td bgcolor="#999"><div align="center"><font color="blue"><b>D60</b></font></div></td>
+<td bgcolor="#999"><div align="center"><font color="blue"><b>P6000</b></font></div></td>
+</tr>
+<td></td>
+<td></td>
+<tr>
+<td><div align="left">
+	<ul>
+		<li><font>10.2-Megapixel</font></li>
+		<li><font>Price: € 450</font></li>
+	</ul>
+</div>
+</td>
+
+<td><div align="left">
+	<ul>
+		<li><font>13.5-Megapixel</font></li>
+		<li><font>Price: € 390</font></li>
+	</ul>
+</div>
+</td>
+</div>
+</td>
+
+</tr>
+
+  <tr>
+    <td colspan="2" style="height:20px;"></td>
+  </tr>
+<tr>
+	<td colspan="4">
+		<div align="center"><font color="red" style="font-size:20px;"><b>Big Sale!!!</b></font></div>
+	</td>
+</tr>
+<td colspan="5"></td>
+<tr>
+	<td colspan="4">
+		<div align="center">Start from now, you can save <font color="red"><b>10%</b></font>.</div>
+	</td>
+
+</tr>
+  <tr>
+    <td colspan="2" style="height:10px;"></td>
+  </tr>
+<tr>
+<td colspan="4" style="border-top:2px solid #ccc; padding-top:15px;">Enter your email and click "Order" button.</td>
+</tr>
+<tr>
+<td colspan="2">Email: <input type="text" name="" id=""> <input type="submit" name="" value="Order"></td>
+</tr>
+
+</body>
+</html>
